@@ -1,0 +1,47 @@
+.task-card {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  /* border-left: 0.5rem solid black; */
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+
+.task-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-card-header p {
+  font-size: 2.4rem;
+}
+
+.task-card-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.task-card-date {
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: flex-end;
+}
+
+.task-card-opt {
+  position: absolute;
+  right: 3rem;
+  border: 1px solid black;
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  background-color: aliceblue;
+}
+.task-card-opt button {
+  font-size: 1.2rem;
+}

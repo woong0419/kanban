@@ -1,0 +1,30 @@
+.edit-form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  background-color: #ffffff;
+}
+
+.edit-form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.edit-form input {
+  padding-left: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  height: 2rem;
+  border: 1px solid;
+}
+
+.edit-form button {
+  height: 3rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  background: none;
+  cursor: pointer;
+}
